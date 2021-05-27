@@ -12,14 +12,15 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.jeasy/easy-random -->
-        <dependency>
-            <groupId>org.jeasy</groupId>
-            <artifactId>easy-random-core</artifactId>
-            <version>4.3.0</version>
-        </dependency>
+        <dependencies>
+            <dependency>
+                <groupId>org.jeasy</groupId>
+                <artifactId>easy-random-core</artifactId>
+                <version>4.3.0</version>
+                <type>jar</type> <!-- Not too sure if you needed this
+                                  when it's scoped as import,
+                             but just in case -->
+            </dependency>
+        </dependencies>
 
-
-    </dependencies>
 </project>
